@@ -37,7 +37,9 @@ const [treasureLocation, setTreasureLocation] = useState(
       <h1>Treasure Hunt Game</h1>
       <div className="board"> 
       {board.map((square, index) => {
+
     return  <Square square={square} index={index} key={index} handleGamePlay={handleGamePlay}/>
+
       })}
     </div>
     </>

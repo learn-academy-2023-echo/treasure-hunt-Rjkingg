@@ -10,6 +10,7 @@ const handleClick = () => {
     <>
       <div className="square" onClick={handleClick}>{square}
       </div>
+
     </>
   )
 }
