@@ -17,6 +17,11 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
+branch: index-position
+-passed in index to square
+-established key value for the map function
+-created function the handle the click to alert the index
+
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
 - As a user, I can click on a “Play Again” button that will restart the game.
